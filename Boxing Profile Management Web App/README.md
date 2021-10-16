@@ -21,7 +21,7 @@ No traffic and data handling constraints at the moment. May add scalability requ
 
 ## Step 2: High-Level Architecture
 
-![High Level Architecture](HighLevelArchitecture.png)
+![High Level Architecture](../../../HighLevelArchitecture.png)
 
 ## Step 3: Design Core Components
 
