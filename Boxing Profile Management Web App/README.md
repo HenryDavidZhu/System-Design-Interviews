@@ -11,7 +11,7 @@
    4. Weight Class
    5. Record (W-L-D and KOs)
 2. Filter boxer profile by the following requirements:
-   1. Name (First and/or Last)
+   1. Name (First and Last)
    2. Height (from X ft Y in to X' ft Y' in)
    3. Weight (from X lbs to Y lbs)
 
@@ -31,7 +31,7 @@ Retrieve the result returned by the following SQL query:
 
 `SELECT BoxerProfileDatabase FROM BoxerProfileTable `
 
-`WHERE [low_bound] AND [upper_bound]`
+`WHERE [firstName = targetFirstName] AND [lastName = lastFirstName]`
 
 And display it onto the webpage.
 
